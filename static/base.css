@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #4CAF50;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+  
+  section {
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: white;
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .grid-item:hover {
+    transform: scale(1.05);
+  }
+  
