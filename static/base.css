@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 20px;
-    background-color: #4CAF50;
+    background-color: #4ed355;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -22,13 +22,14 @@ body {
   
   section h2 {
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: normal;
+    text-align: center;
   }
   
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
   }
   
@@ -38,9 +39,10 @@ body {
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     font-weight: bold;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: large;
+    box-shadow: 0 4px 8px rgba(230, 138, 138, 0.2);
     cursor: pointer;
     transition: transform 0.2s;
   }
